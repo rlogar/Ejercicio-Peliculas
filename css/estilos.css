@@ -2,3 +2,26 @@
     background-color: rgb(15, 15, 158);
     color: #ffffff;
 }
+
+#container-populares{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    align-items: center;
+}
+
+.pelicula{
+    flex:0 0 auto;
+}
+
+.titulo{
+    width: 200px;
+    height: 50px;
+    align-content: center;
+}
+.imgPopulares{
+    width: 200px;
+    height: 300px;
+    padding: 10px;
+    border-radius: 50px;
+}
