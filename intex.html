@@ -15,24 +15,27 @@
 <body>
     <header>
         <div class="navbar">
-            <img>logo
-            <li class="peliculas"> PELICULAS
-                <ul>Populares</ul>
-                <ul>En cartelera</ul>
-                <ul>Proximamente</ul>
-                <ul>Mejor Valoradas</ul>
-            </li>
-            <li class="tv"> TELEVISION
-                <ul>Populares</ul>
-                <ul>En emision</ul>
-                <ul>En televisión</ul>
-                <ul>Mejor Valoradas</ul>
-            </li>
-            <li class="más"> MAS
-                <ul>Discusiones</ul>
-                <ul>Tablas de clasificacion</ul>
-                <ul>Soporte</ul>
-            </li>
+            <ul class="desplegable-padre">
+                <li>PELICULAS
+                    <ul>
+                        <li class="desplegable"><a>Populares</a><br></li>
+                        <li class="desplegable"><a>En cartelera</a></li>
+                        <li class="desplegable"><a>Proximamente</a></li>
+                    </ul>
+                </li> 
+                <li>TV
+                    <ul>
+                        <li class="desplegable"><a>Poulares</a><br></li>
+                        <li class="desplegable"><a>En cartelera</a></li>
+                        <li class="desplegable"><a>Proximamente</a></li>
+                    </ul>
+                </li> 
+                <li>MAS
+                    <ul>
+                        <li class="desplegable"><a>Poulares</a><br></li>
+                    </ul>
+                </li> 
+            </ul>
         </div>
     </header>
 
@@ -44,6 +47,7 @@
             <select class="status">
                 <option>day</option>
                 <option>week</option>
+            </select>
         </div>
     </div>
 
