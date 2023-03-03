@@ -9,7 +9,12 @@
     overflow-x: auto;
     align-items: center;
 }
-
+#container-catelera{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    align-items: center;
+}
 .pelicula{
     flex:0 0 auto;
 }
